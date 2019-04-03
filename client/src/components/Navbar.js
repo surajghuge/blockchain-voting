@@ -18,7 +18,7 @@ class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                     <Link to="/register" className="nav-link">
-                       <span class="glyphicon glyphicon-home"></span> Register
+                       Register
                     </Link>
                 </li>
             </ul>
@@ -60,7 +60,7 @@ class Navbar extends Component {
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <Link to="/" className="nav-link">
-                                Home
+                               <span class="glyphicon glyphicon-home"></span> Home
                             </Link>
                         </li>
                     </ul>
