@@ -18,7 +18,7 @@ class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                     <Link to="/register" className="nav-link">
-                        Register
+                       <span class="glyphicon glyphicon-home"></span> Register
                     </Link>
                 </li>
             </ul>
